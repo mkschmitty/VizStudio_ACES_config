@@ -1,5 +1,5 @@
 # VizStudio_ACES_config
-Custom ACES config file for the Visualization Studio
+Custom ACES config file for the Visualization Studio.
 Created by Mike Schmitt, March 2022
 
 This is a modified ACES config combining elements from the
