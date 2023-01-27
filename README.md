@@ -1,10 +1,10 @@
 # VizStudio_ACES_config
 Custom ACES config file for the Visualization Studio
+Created by Mike Schmitt, March 2022
 
 This is a modified ACES config combining elements from the
 Substance Painter OCIO_v1 config and some of the newer naming conventions from RedShift ocio_v2 config
 modified for the Visualization Studio
-Mike Schmitt, March 2022
 
 We changed some of the color space names to simplify
 
