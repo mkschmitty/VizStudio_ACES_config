@@ -6,7 +6,7 @@ This is a modified ACES config combining elements from the
 Substance Painter OCIO_v1 config and some of the newer naming conventions from RedShift ocio_v2 config
 modified for the Visualization Studio
 
-We modified the naming convention a bit to simplify and so some of the color spaces would be backwards compatible with our older nuke scripts, namely:
+We modified the ACES naming convention slightly to simplify.  Also, to keep some of the color spaces backwards compatible with older nuke scripts, namely:
 
 *linear* = "Utility - Linear - sRGB" (v1) or "linear-Rec.709-sRGB" (v2)
 
