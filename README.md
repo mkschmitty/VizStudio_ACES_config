@@ -6,17 +6,13 @@ This is a modified ACES config combining elements from the
 Substance Painter OCIO_v1 config and some of the newer naming conventions from RedShift ocio_v2 config
 modified for the Visualization Studio
 
-We changed some of the color space names to simplify:
+We modified the naming convention a bit to simplify and so some of the color spaces would be backwards compatible with our older nuke scripts, namely:
 
-linear = linear-Rec.709-sRGB (v2) = Utility - Linear - sRGB (v1)
+*linear* = "Utility - Linear - sRGB" (v1) or "linear-Rec.709-sRGB" (v2)
 
-sRGB = sRGB (v2) = Utility - sRGB - Texture (v1)
+*sRGB* = "Utility or  sRGB - Texture" (v1) or "sRGB" (v2)
 
+*ACESvid* = "ACES SDR 1.0 video" (v2) or "Output - sRGB" (v1)
+-- this is used only as a View Transform and Output Color Transform.  We shortened the name since "ACES SDR 1.0 video" is a mouthful
 
-We renamed this View, since it's much much easier to say and type.  
-It is our default View and Output Transform for sRGB images.
-
-ACESvid = Invert ACES SDR 1.0 video (v2) = Output - sRGB (v1)
-
-
-A "Dome-look" LUT has also been added to simulate the low contrast of the Morrison Planetarium dome on our sRGB computer monitors.
+*Dome-look* = A custom View LUT to simulate the Morrison Planetarium dome color response on an sRGB monitor.  
